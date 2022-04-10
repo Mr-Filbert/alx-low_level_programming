@@ -27,6 +27,6 @@ while (c <= 999)
 	}
 	c++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
