@@ -1,11 +1,14 @@
-#include<unistd.h>
+#include<main.h>
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropritately.
+ * main - prints Holberton, followed by a new line
+ * Return : Always 0 (Success)
  */
-int putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	_putchar('m');
+	_putchar('a');
+	_putchar('i');
+	_putchar('n');
+	_putchar('\n');
+	return (0);
 }
