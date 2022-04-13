@@ -26,6 +26,6 @@ while(hours <= 23)
 		_putchar('\n');
 	}
 	hours++;
-	munites = 0;
+	minutes = 0;
 }
 }
