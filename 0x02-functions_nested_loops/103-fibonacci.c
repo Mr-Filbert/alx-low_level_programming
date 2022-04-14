@@ -19,7 +19,7 @@ for (i = 1; i <= 33; i++)
 	}
 	next = j + k;
 	j = k;
-	k =next;
+	k = next;
 }
 printf("%lu\n", sum);
 return (0);
