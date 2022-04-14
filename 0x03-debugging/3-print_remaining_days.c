@@ -21,14 +21,14 @@ if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
 }
 else
 {
-	if (month == 2 && day == 60)
-	{
-		printf("invalid date: %02d/%02d/%04d\n", month, day - 31, year);
-	}
+if (month == 2 && day == 60)
+}
+printf("invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 }
 else
 {
-	printf("Day of the year: %d\n", day);
-	printf("Remaning days: %d\n", 365 - day);
+printf("Day of the year: %d\n", day);
+printf("Remaning days: %d\n", 365 - day);
+}
 }
 }
