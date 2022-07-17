@@ -1,1 +1,1 @@
-C - 0x18-dynamic_libraries
+C - Lesson 18: Dynamic Libraries
